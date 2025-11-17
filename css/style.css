@@ -1,0 +1,200 @@
+:root {
+  --azul-escuro: #0D6BA6;
+  --azul-claro: #32A9D9;
+  --verde: #A6BF49;
+  --amarelo: #F2D129;
+  --laranja: #F2AA52;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  background-image: url('/img/WinXP.jpg');
+}
+
+p{
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+
+.headerBanner {
+  position: relative;
+  width: 100%;
+  border-radius: 15px 15px 0 0; 
+  overflow: hidden;
+  box-shadow: none; 
+  z-index: 10;
+}
+
+.headerBanner img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.headerBanner h1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  left: auto;
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 0;
+}
+
+.bem-Vindo {
+  width: auto;
+  height: 150px;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  z-index: 10;
+}
+
+.bem-Vindo img {
+  width: 300px;
+  height: 140px;
+  object-fit: cover;
+  margin: 0;
+}
+
+nav {
+  position: relative;
+  margin-top: 15px;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+nav ul li {
+  padding-right: 10px;
+}
+
+nav ul li a:hover {
+  color: var(--laranja);
+}
+
+.xp-window {
+    width: auto;
+    border: 2px solid #1B44B8;
+    border-radius: 6px;
+    box-shadow: 5px 8px 10px #0006;
+    background: #ffffff;
+    margin: 20px auto;
+    overflow: hidden;
+    font-family: Tahoma, sans-serif;
+}
+
+.xp-top {
+    position: relative;
+    background: linear-gradient(to bottom, #245edb 0%, #3f8cf3 60%, #245edb 100%);
+    color: white;
+    padding: 6px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.xp-close {
+    position: absolute;
+    left:92%;
+    bottom: 5px;
+    background: linear-gradient(180deg, #e9917e 0%, #df5941 40%, #9c200f 100%);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.xp-middle {
+    height: auto;
+    background: #fff;
+    padding: 15px;
+    border-left: 2px solid #1B44B8;
+    border-right: 2px solid #1B44B8;
+}
+
+.xp-bottom {
+    height: 50px;
+    background: #dcdcdc;
+    border-left: 5px solid #1B44B8;
+    border-right: 5px solid #1B44B8;
+    border-bottom: 5px solid #1B44B8;
+}
+
+
+.window-receita{width: 200px; height: 200px;}
+.window-bemVindo{width: 500px; height: 200px;}
+.window-coracaoAprenda{width: 100%;}
+
+.receitas-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  width: 500px;
+  border-radius: 20px;
+  padding: 20px; 
+  box-shadow: 0 4px 12px #00000030;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;    
+  gap: 20px;          
+}
+
+.receita-box {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #1B44B8;
+  border-radius: 8px;
+  overflow: hidden;    
+  background: white;
+  box-shadow: 3px 4px 8px #0003;
+}
+
+.receita-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   
+}
+
+
+.xp-nav {
+  width: 100%;
+  background: linear-gradient(to bottom, #245edb 0%, #3f8cf3 60%, #245edb 100%);
+  padding: 8px 0;
+  border-radius: 10px;
+  border-bottom: 10px solid #1B44B8;
+  box-shadow: 0 3px 8px #0004;
+}
+
+.xp-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.xp-nav ul li a {
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-shadow: 1px 1px 0px #000;
+  transition: 0.1s;
+}
+
